@@ -1,15 +1,15 @@
 {
-  "name": "upcecconnect/upc-payment-sdk",
-  "type": "library",
-  "description": "UPC ecommerce SDK",
-  "keywords": ["relevant","tags","go","here"],
+  "name": "upcecconnect/upc-payment-bundle",
+  "type": "bundle",
+  "description": "UPC ecommerce bundle ",
+  "keywords": ["payment"],
   "homepage": "https://ecommerce.upc.ua",
   "license": "MIT",
   "authors": [
     {
-      "name": "Jordi Boggiano",
-      "email": "j.boggiano@seld.be",
-      "homepage": "https://ecommerce.upc.ua/",
+      "name": "Bogdan",
+      "email": "pretorian42@gmail.com",
+      "homepage": "https://web.madeye.pp.ua/",
       "role": "Developer"
     }
   ],
