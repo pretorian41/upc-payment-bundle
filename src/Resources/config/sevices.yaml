@@ -1,0 +1,6 @@
+services:
+  UPCPaymentBundle\Service\UPCPayService:
+    arguments:
+      - '@UPCPaymentBundle\Service\ConnectionsConfigInterface'
+      - '@Symfony\Component\Form\FormFactoryInterface'
+

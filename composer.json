@@ -1,0 +1,26 @@
+{
+  "name": "upcecconnect/upc-payment-sdk",
+  "type": "library",
+  "description": "UPC ecommerce SDK",
+  "keywords": ["relevant","tags","go","here"],
+  "homepage": "https://ecommerce.upc.ua",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jordi Boggiano",
+      "email": "j.boggiano@seld.be",
+      "homepage": "https://ecommerce.upc.ua/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "gamegos/jws": "^1.0",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+        "psr-4": {
+            "UPCPaymentBundle\\": ["src", "tests"]
+        }
+    }
+}
