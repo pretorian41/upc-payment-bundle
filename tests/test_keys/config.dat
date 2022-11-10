@@ -1,0 +1,25 @@
+[ req ]
+prompt 			= no
+distinguished_name	= req_distinguished_name
+
+[ req_distinguished_name ]
+# Країна
+CN=UA
+
+# Область
+ST=Odesskaya
+
+# Місто
+L=Kiev
+
+#Назва організації
+O=TEST
+
+# Назва відділення
+OU=IT DEP.
+
+# Ім'я для сертифіката (Ваше ім'я)
+CN=Test
+
+#Email організації
+emailAddress=my.mail@test.ua
